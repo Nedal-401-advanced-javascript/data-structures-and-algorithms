@@ -26,6 +26,9 @@ function insertShiftArray(arr, x) {
     console.log(arr2)
     return arr2;
 }
+
 console.log(insertShiftArray(arr, x))
+
 console.log(insertShiftArray(x, x))
+
 console.log(insertShiftArray(arrEty, x))
