@@ -32,3 +32,5 @@ console.log(insertShiftArray(arr, x))
 console.log(insertShiftArray(x, x))
 
 console.log(insertShiftArray(arrEty, x))
+
+console.log(insertShiftArray(arrEty, 7))
