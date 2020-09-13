@@ -1,5 +1,5 @@
 {
-  "name": "linkedList",
+  "name": "linked-list",
   "version": "1.0.0",
   "description": "",
   "main": "linked-list.js",
@@ -9,7 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^26.4.2"
   }
 }
