@@ -1,5 +1,5 @@
 'use strict';
-const Node = require('../linked-list.js');
+const Node = require('../node.js');
 // jest.spyOn(global.console, 'log');
 
 describe('Node Module', ()=> {
