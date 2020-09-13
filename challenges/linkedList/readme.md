@@ -10,6 +10,10 @@ there are three methods can use by Linked list class:
 1. insert: which is check if there is any value in the list if it is emptey , will add the new value as  a head for the list, else will add the value as a tail
 
 2. includes: it looking for a specific value as input if it is one of the nodes values and return true and false if there is not.
-
-3. toString: it printes all the values in the linked list as following:
+3. insert before : it looks fot spicific value and add the value before
+4. insert after : it looks fot spicific value and add the value after
+5. toString: it printes all the values in the linked list as following:
 >         // "{ a } -> { b } -> { c } -> NULL"
+#
+4. white bord:
+![](./assets/linkedList.jpg)
