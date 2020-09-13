@@ -1,9 +1,4 @@
-class Node {
-    constructor(value) {
-        this.value = value;
-        this.pointer = null
-    }
-}
+"use strict";
 
 class LinkedList {
     constructor() {
@@ -75,7 +70,7 @@ class LinkedList {
         }
         return false;
     }
-    
+
     // "{ a } -> { b } -> { c } -> NULL"
 
     toString() {
@@ -91,6 +86,8 @@ class LinkedList {
         return toBePrint;
     }
 }
+module.exports =LinkedList;
+
 // let ll=new LinkedList()
 // ll.insert(8)
 // ll.append(9)
