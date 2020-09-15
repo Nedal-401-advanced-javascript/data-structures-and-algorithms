@@ -26,6 +26,20 @@ class LinkedList {
         return this;
 
     }
+    getValue(k) {
+        let arr = [];
+        let i = 0;
+        let current = this.head;
+        while (current.pointer) {
+            arr[i] = current.value;
+            current = current.pointer;
+            i++;
+
+        }
+        let valueIndex = arr.length - k
+        return arr[valueIndex]
+
+    }
 
     insertAfter(value, newVal) {
         let node = new Node(newVal);
@@ -87,7 +101,7 @@ class LinkedList {
         return toBePrint;
     }
 }
-module.exports =LinkedList;
+module.exports = LinkedList;
 
 // let ll=new LinkedList()
 // ll.insert(8)
