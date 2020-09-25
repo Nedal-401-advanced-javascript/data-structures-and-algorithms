@@ -14,3 +14,7 @@ this repo. containing code challenges as part of the advance javaScribt course
 | 8     | Zip two LL          | [link]()             |
 | 9     | pairing challenge   | [link]()             |
 | 10    | Stack and a Queue   | [link]()             |
+| 11    | Implement a Queue using two Stacks  | [link]()             |
+| 12    | First-in, First out Animal Shelter   | [link]()             |
+| 13    | Multi-bracket Validation   | [link]()             |
+| 14    | Stack and a Queue   | [link]()             |
