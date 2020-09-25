@@ -1,0 +1,12 @@
+{
+  "name": "fifoAnimalShelter",
+  "version": "1.0.0",
+  "description": "First-in First out Animal Shelter",
+  "main": "animal-shelter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
