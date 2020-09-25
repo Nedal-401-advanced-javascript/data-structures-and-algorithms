@@ -1,0 +1,17 @@
+{
+  "name": "queuewithstacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Stack.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.9.0",
+    "jest": "^26.4.2"
+  }
+}
