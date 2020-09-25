@@ -1,0 +1,20 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "this repo. containing code challenges as part of the advance javaScribt course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nedal-401-advanced-javascript/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nedal-401-advanced-javascript/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/Nedal-401-advanced-javascript/data-structures-and-algorithms#readme"
+}
