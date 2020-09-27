@@ -10,6 +10,17 @@ class BinaryTree {
     // Space o(h): h is the height of this tree
 
     // Root - Left - Right
+    findMaximumValue(){
+        let max =0;
+        let _traverse = (node) => {
+            if (node.left) _traverse(node.left);
+            if (node.right) _traverse(node.right);
+            if(node.value>max) max=node.value;
+            
+        }
+        _traverse(this.root);
+        return max;
+    }
     preOrder() {
         let output = [];
         let _traverse = (node) => {
