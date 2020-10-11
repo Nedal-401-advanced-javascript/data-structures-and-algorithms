@@ -20,3 +20,4 @@ this repo. containing code challenges as part of the advance javaScribt course
 | 14    | Stack and a Queue   | [link]()             |
 | 15    | tree data structuer   | [link]()             |
 | 16    | Maximum Value in a Binary Tree   | [link]()             |
+| 17    | Sort insertion algoritherm   | [link]()             |
