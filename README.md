@@ -21,3 +21,4 @@ this repo. containing code challenges as part of the advance javaScribt course
 | 15    | tree data structuer   | [link]()             |
 | 16    | Maximum Value in a Binary Tree   | [link]()             |
 | 17    | Sort insertion algoritherm   | [link]()             |
+| 18    | Merge algoritherm   | [link]()             |
