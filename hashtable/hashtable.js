@@ -35,7 +35,8 @@ class HashTable {
     }
 
     contains(key) {
-        return this.entries[key] != null;
+        let hashIndex = this.hash(key);
+        return this.entries[hashIndex] != undefined;
     }
 }
 

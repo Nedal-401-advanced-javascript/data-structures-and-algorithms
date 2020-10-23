@@ -10,7 +10,7 @@ Implement a simplified LEFT JOIN for 2 Hashmaps.
 - The returned data structure that holds the results is up to you. It doesn’t need to exactly match the output below, so long as it achieves the LEFT JOIN logic.
 - Avoid utilizing any of the library methods available to your language.
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+the space will be O(n) and the time will be the O(n)
 
 ## Solution
-<!-- Embedded whiteboard image -->
+![](./leftjoin.jpg)
