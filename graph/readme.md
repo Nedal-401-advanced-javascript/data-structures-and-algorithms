@@ -24,4 +24,20 @@ Getting all nodes adjacent to node i takes O(1) steps.
  Takes in a given node
  Include the weight of the connection in the returned collection
 - Size()
- Returns the total number of nodes in the graph
+ Returns the total number of nodes in the 
+ 
+
+
+# Implement a breadth-first traversal on a graph.
+Implement Graph Data structure. The graph should be represented as an adjacency list
+
+Challenge
+breadthFirst() search in the graph
+Approach & Efficiency
+i used class
+
+BIG O
+graph
+breadthFirst Method
+space --> Big O = O(n) --> space varies as number of nodes increase or decrease
+time --> Big O = O(n) --> time varies as number of nodes increase or decrease
