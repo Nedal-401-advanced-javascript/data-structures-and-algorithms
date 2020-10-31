@@ -24,10 +24,10 @@ class Graph {
   }
 
   addVertex(vertex) {
-      // Adds a new node to the graph
-      // Takes in the value of that node
-      // Returns the added node
-      // The correct usage for storing data in the Map is through the set(key, value) method.
+    // Adds a new node to the graph
+    // Takes in the value of that node
+    // Returns the added node
+    // The correct usage for storing data in the Map is through the set(key, value) method.
     this._adjacencyList.set(vertex, []);
   }
 
@@ -51,10 +51,10 @@ class Graph {
       adjacencies.push(new Edge(endVertex, weight));
     }
   }
-  
+
   // ---------------------------
   //  (a) ==1==> (b)
-  // 
+  //
   // {
   //   a:[
   //     {
@@ -65,7 +65,6 @@ class Graph {
   //   b:[]
   // }
   // ---------------------------
-
 
   getNeighbours(vertex) {
     if (!this._adjacencyList.has(vertex)) {
@@ -81,9 +80,9 @@ class Graph {
       console.log("E ====> ", edge);
     }
   }
-  Size(){
+  Size() {
     //   Returns the total number of nodes in the graph
-    return this._adjacencyList.size
+    return this._adjacencyList.size;
   }
   bfs(startNode) {
     const queue = [];
@@ -93,7 +92,7 @@ class Graph {
 
     while (queue.length) {
       const currentNode = queue.shift();
-      const neighbors = this.getNeighbors(currentNode);
+      const neighbors = this.getNeighbours(currentNode);
 
       for (let neighbor of neighbors) {
         const neighborNode = neighbor.vertex;
@@ -104,14 +103,13 @@ class Graph {
         }
         queue.push(neighborNode);
       }
-
     }
-
     return vistedNodes;
   }
-  }
 
-  dfs() {}
+  dfs() {
+
+  }
 
   pathTo() {}
 }
@@ -139,5 +137,5 @@ graph.addDirectedEdge(six, eight);
 graph.addDirectedEdge(ten, two);
 graph.addDirectedEdge(ten, eight);
 graph.addDirectedEdge(eight, seven);
-
+console.log(graph.bfs(two));
 graph.printAll();
