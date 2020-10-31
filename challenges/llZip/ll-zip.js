@@ -1,33 +1,30 @@
-'use strict';
-let LinkedList=require('./ll-module')
+"use strict";
+let LinkedList = require("./ll-module");
 
+module.exports = function (list1, list2) {
+  let newList = new LinkedList();
+  let current = list1.head;
+  let current2 = list2.head;
 
-module.exports =function (list1,list2){
-let newList=new LinkedList()
-let current=list1.head
-let current2=list2.head
+  while (current || current2) {
+    if (current) {
+      if (newList.head) {
+        newList.append(current.value);
+      } else {
+        newList.insert(current.value);
+      }
+      current = current.pointer;
+    }
 
-while(current || current2){
-  if(current){
-
-  if(newList.head){
-  newList.append(current.value)
-  }else{
-    newList.insert(current.value)
+    if (current2) {
+      newList.append(current2.value);
+      current2 = current2.pointer;
+    }
   }
-    current=current.pointer
-  }
+  console.log(newList.toString());
 
-if(current2){
-
-  newList.append(current2.value)
-  current2=current2.pointer
-}
-}
-console.log(newList.toString())
-
-return newList;
-}
+  return newList;
+};
 
 // let ll=new LinkedList()
 // ll.insert(1)

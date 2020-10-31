@@ -51,6 +51,21 @@ class Graph {
       adjacencies.push(new Edge(endVertex, weight));
     }
   }
+  
+  // ---------------------------
+  //  (a) ==1==> (b)
+  // 
+  // {
+  //   a:[
+  //     {
+  //       vertex:b,
+  //       weight:1
+  //     }
+  //   ],
+  //   b:[]
+  // }
+  // ---------------------------
+
 
   getNeighbours(vertex) {
     if (!this._adjacencyList.has(vertex)) {

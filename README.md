@@ -26,3 +26,4 @@ this repo. containing code challenges as part of the advance javaScribt course
 | 20    | tree insertion   | [link]()             |
 | 21    | Join Left   | [link]()             |
 | 22    | graph and implementing BFS   | [link]()             |
+| 23    | Get Edge   | [link]()             |
